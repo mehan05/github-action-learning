@@ -31,6 +31,6 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: cicd-workflow
-          directory: dist
+          directory: .next
           branch: main
           wranglerVersion: '3'
